@@ -20,6 +20,22 @@ const taskSchema = new Schema({
                 enum: ['pendiente',  'completada'],
                 default: 'pendiente'
             },
+
+            startDate: {
+                type: Date
+            },
+
+            endDate: {
+                type: Date
+            },
+
+            startTime: {
+                type: String
+            },
+
+            endTime: {
+                type: String
+            },
         },
         { timestamps: true }
     );
