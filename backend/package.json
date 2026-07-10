@@ -1,0 +1,25 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jest": "^30.4.2",
+    "mongoose": "^9.7.4",
+    "morgan": "^1.11.0",
+    "supertest": "^7.2.2",
+    "yup": "^1.7.1"
+  }
+}
